@@ -1,10 +1,11 @@
 import {createStore, applyMiddleware, compose} from 'redux'
 import thunk from 'redux-thunk'
+import promise from 'redux-promise'
 import rootReducer from '../reducers'
 import {routerMiddleware} from 'react-router-redux'
 
 export default function configureStore (history, initialState = {}) {
-  let middlewares = applyMiddleware(thunk, routerMiddleware(history))
+  let middlewares = applyMiddleware(thunk, promise, routerMiddleware(history))
 
   // if (__DEV__) {
   middlewares = compose(middlewares, window.devToolsExtension
