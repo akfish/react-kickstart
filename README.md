@@ -26,7 +26,7 @@ See a [working demo](http://vesparny.github.io/react-kickstart/)
 - [x] Use [redux-act](https://github.com/pauldijou/redux-act.git) for actions
 - [x] Add bluebird `Promise`
 - [x] Add babel `async`/`await` support
-- [ ] Add `fetch`
+- [x] Add `fetch`
 
 ## Usage
 
