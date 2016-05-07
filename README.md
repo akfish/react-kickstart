@@ -1,15 +1,6 @@
 # react-kickstart
 **just another react + webpack boilerplate**
 
-[![Build Status](https://travis-ci.org/vesparny/react-kickstart.svg)](https://travis-ci.org/vesparny/react-kickstart)
-[![codecov.io](https://codecov.io/github/vesparny/react-kickstart/coverage.svg?branch=master)](https://codecov.io/github/vesparny/react-kickstart?branch=master)
-[![Dependency status](https://david-dm.org/vesparny/react-kickstart/status.svg)](https://david-dm.org/vesparny/react-kickstart "Dependency status")
-[![Dev dependency status](https://david-dm.org/vesparny/react-kickstart/dev-status.svg)](https://david-dm.org/vesparny/react-kickstart#info=devDependencies "Dev dependency status")
-
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
-See a [working demo](http://vesparny.github.io/react-kickstart/)
-
 ## Features
 * webpack + vanilla hot-module-replacement
 * Stateless functional components
@@ -23,16 +14,16 @@ See a [working demo](http://vesparny.github.io/react-kickstart/)
 
 ## Modifications in this fork
 
-- [x] Use [redux-act](https://github.com/pauldijou/redux-act.git) for actions
-- [x] Add bluebird `Promise`
-- [x] Add babel `async`/`await` support
-- [x] Add `fetch`
+- Use [redux-act](https://github.com/pauldijou/redux-act.git) for actions
+- Add bluebird `Promise`
+- Add babel `async`/`await` support
+- Add `fetch`
 
 ## Usage
 
 **Clone this repository**
 ```
-git clone https://github.com/vesparny/react-kickstart.git
+git clone https://github.com/akfish/react-kickstart.git
 ```
 
 **Install**
