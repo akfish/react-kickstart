@@ -1,10 +1,8 @@
-import * as types from '../constants/actionTypes'
+import { createReducer } from 'redux-act'
+import { increment } from '../actions/counter'
 
-export default function counter (state = 0, action) {
-  switch (action.type) {
-    case types.INCREMENT:
-      return state + 1
-    default:
-      return state
-  }
-}
+const counterReducer = createReducer({
+  [increment]: (state) => state + 1
+}, 0)
+
+export default counterReducer

@@ -1,7 +1,3 @@
-import * as types from '../constants/actionTypes'
+import { createAction } from 'redux-act'
 
-export function increment () {
-  return {
-    type: types.INCREMENT
-  }
-}
+export const increment = createAction('INCREMENT')
